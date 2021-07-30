@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AssignedByValParameterInspection" xml:space="preserve">
+    <value>パラメーターは値渡しされますが、新しい値/参照が割り当てられます。呼び出し元が新しい値を知らない場合は、代わりにローカル コピーを作成することを検討してください。呼び出し元に新しい値が表示される場合は、パラメーターを代わりに ByRef で渡す必要があり、バグがあります。</value>
+  </data>
+  <data name="ConstantNotUsedInspection" xml:space="preserve">
+    <value>Rubberduck は定数への参照を見つけることができませんでした。使用されていない宣言を削除することを検討してください。</value>
+  </data>
+  <data name="DefaultProjectNameInspection" xml:space="preserve">
+    <value>VBA プロジェクトに名前を付けることを検討してください。</value>
+  </data>
+  <data name="EmptyStringLiteralInspection" xml:space="preserve">
+    <value>組み込みの定数 'vbNullString' は、0 バイトのメモリを占める NULL 文字列ポインタで、空の文字列の意図を明確に伝えます。</value>
+  </data>
+  <data name="EncapsulatePublicFieldInspection" xml:space="preserve">
+    <value>代わりにプロパティを公開することを検討してください。</value>
+  </data>
+  <data name="ImplicitActiveSheetReferenceInspection" xml:space="preserve">
+    <value>アクティブシートへの暗黙の参照により、コードは不安定になり、デバッグが困難になります。これらの参照を意図した場合に明示的に指定することを検討し、オブジェクト参照の作業を優先します。メンバー呼び出しが、Rubberduck が解決できない型を参照している場合は無視します。</value>
+  </data>
+  <data name="ImplicitActiveWorkbookReferenceInspection" xml:space="preserve">
+    <value>アクティブなブックへの暗黙的な参照は、コードが不安定になり、デバッグが困難になります。これらの参照を意図した場合に明示的に指定することを検討し、オブジェクト参照の作業を優先します。メンバー呼び出しが、Rubberduck が解決できない型を参照している場合は無視します。</value>
+  </data>
+  <data name="ImplicitByRefModifierInspection" xml:space="preserve">
+    <value>パラメータは、特に指定しない限り参照渡しが行われ、混乱を招き、バグが生じやすくなります。パラメーターを値で渡すことを優先し、参照渡しでパラメーターを渡すときに ByRef を明示的に指定します。</value>
+  </data>
+  <data name="ImplicitPublicMemberInspection" xml:space="preserve">
+    <value>モジュール メンバーは既定でパブリックであり、直観的に直観的に行われる可能性があります。あいまいさを避けるために、明示的なアクセス修飾子を指定することを検討してください。</value>
+  </data>
+  <data name="ImplicitVariantReturnTypeInspection" xml:space="preserve">
+    <value>戻り値を持つメンバーは、特に指定しない限り、暗黙的に 'Variant' を返します。戻り値の型が不明な場合は、明示的な 'Variant' を返すことを検討するか、明示的に指定します。</value>
+  </data>
+  <data name="MoveFieldCloserToUsageInspection" xml:space="preserve">
+    <value>1 つのプロシージャでだけ使用されるモジュール レベルの変数は、そのプロシージャで宣言する必要があります。</value>
+  </data>
+  <data name="MultilineParameterInspection" xml:space="preserve">
+    <value>パラメータ間で長い署名を続けることを検討してください。パラメータ宣言を複数行に分割すると、読みやすさが損なわれます。</value>
+  </data>
+  <data name="MultipleDeclarationsInspection" xml:space="preserve">
+    <value>同じ命令で複数の変数を宣言することは有効ですが、控えめに使用する必要があります。変数を使用に近い、宣言ごとに 1 つの命令で宣言することを検討してください。</value>
+  </data>
+  <data name="NonReturningFunctionInspection" xml:space="preserve">
+    <value>これはおそらくバグです。関数またはプロパティ getter の戻り値は、終了する前に代入する必要があります。関数に意味のある戻り値がない場合は、代わりに 'Sub' プロシージャとして宣言することを検討してください。</value>
+  </data>
+  <data name="ObsoleteCallStatementInspection" xml:space="preserve">
+    <value>'Call' ステートメントはプロシージャを呼び出す必要がなくなり、必要なレガシ コードをサポートする言語でのみ存在します。暗黙的な呼び出しに安全に書き換えることができます。</value>
+  </data>
+  <data name="ObsoleteCommentSyntaxInspection" xml:space="preserve">
+    <value>'Rem' ステートメントは、そのステートメントを必要とするレガシ コードをサポートする言語にのみ存在します。アポストロフィ/単一引用符のコメントで安全に置き換えることができます。</value>
+  </data>
+  <data name="ObsoleteGlobalInspection" xml:space="preserve">
+    <value>'Global' キーワードは、そのキーワードを必要とするレガシ コードをサポートする言語にのみ存在します。'Public' 修飾子で安全に置き換えることができます。</value>
+  </data>
+  <data name="ObsoleteLetStatementInspection" xml:space="preserve">
+    <value>'Let' ステートメントは、そのステートメントを必要とするレガシ コードをサポートする言語にのみ存在します。最新の VBA では値の割り当てにキーワードを必要としないため、この値を安全に削除できます。</value>
+  </data>
+  <data name="ObsoleteTypeHintInspection" xml:space="preserve">
+    <value>入力ヒント文字は、言語を必要とするレガシ コードをサポートするためにのみ存在します。宣言内で、型を明示的に指定する "As" 型句に安全に置き換えることができ、他の識別子参照では省略できます。</value>
+  </data>
+  <data name="OptionBaseInspection" xml:space="preserve">
+    <value>配列は通常、0 から始まります。このオプションは、暗黙的なサイズの配列のデフォルトの下限を変更します。</value>
+  </data>
+  <data name="OptionExplicitInspection" xml:space="preserve">
+    <value>VBA は誤植をコンパイルします: 'Option Explicit' を使用して、誤ったプログラムのコンパイルを回避します。</value>
+  </data>
+  <data name="ParameterCanBeByValInspection" xml:space="preserve">
+    <value>参照によって渡され、新しい値/参照が割り当てられていないパラメータは、代わりに値渡しできます。</value>
+  </data>
+  <data name="ParameterNotUsedInspection" xml:space="preserve">
+    <value>パラメーターは、それを使用しないメンバーに渡されます。そのパラメータを削除することを検討してください。</value>
+  </data>
+  <data name="ProcedureNotUsedInspection" xml:space="preserve">
+    <value>Rubberduck は、プロシージャの呼び出し元を見つけることができませんでした。プロシージャがマクロ ボタンにフックされている場合、ユーザー定義関数 (UDF) として使用されるか、または、この検査結果を無視して、この検査結果を無視して、そのことを知らないアプリケーション イベントを処理します。それ以外の場合は、削除することを検討してください。</value>
+  </data>
+  <data name="UnassignedVariableUsageInspection" xml:space="preserve">
+    <value>これはおそらくバグです。変数は参照されていますが、代入されることはありません。</value>
+  </data>
+  <data name="UntypedFunctionUsageInspection" xml:space="preserve">
+    <value>文字列を返す同等の関数が存在し、暗黙の型変換を回避するために使用することをお勧めします。
+パラメータが null の場合は、この検査結果を無視します。文字列を返す関数に null 値を渡すと、型の不一致ランタイム エラーが発生します。</value>
+  </data>
+  <data name="UseMeaningfulNameInspection" xml:space="preserve">
+    <value>識別子名は、使用目的を示し、読み取り可能な名前にする必要があります。不連続化、数値接尾部、および 1 から 2 文字の名前を避けてください。</value>
+  </data>
+  <data name="VariableNotAssignedInspection" xml:space="preserve">
+    <value>変数が割り当てられていません。これが意図されていない場合は、おそらくバグがあります。ByRef パラメータを使用して別のプロシージャで変数が割り当てられている場合、この検査結果は無視されます。</value>
+  </data>
+  <data name="VariableNotUsedInspection" xml:space="preserve">
+    <value>変数は参照されません。</value>
+  </data>
+  <data name="VariableTypeNotDeclaredInspection" xml:space="preserve">
+    <value>型が明示的に宣言されていない変数は暗黙的に 'Variant' です。それが意図されている場合は明示的な 'Variant'にするか、より具体的な型を宣言することを検討してください。</value>
+  </data>
+  <data name="WriteOnlyPropertyInspection" xml:space="preserve">
+    <value>ミュータを公開するがアクセサーを公開しないプロパティは、設計上の匂いであり、紛らわしい API になります。ゲッターを公開するか、ミューテーターをメソッドに変換することを検討してください。</value>
+  </data>
+  <data name="ProcedureCanBeWrittenAsFunctionInspection" xml:space="preserve">
+    <value>プロシージャが終了する前に新しい値/参照を割り当てられた参照によって渡されるパラメーターが 1 つだけあるプロシージャは、ByRef パラメーターを戻り値として使用しています。</value>
+  </data>
+  <data name="SelfAssignedDeclarationInspection" xml:space="preserve">
+    <value>プロシージャ スコープでの自動インスタンス化されたオブジェクト変数宣言は、参照の動作を無効にする方法を変更し、予期しない動作を引き起こす可能性があります。</value>
+  </data>
+  <data name="FunctionReturnValueAlwaysDiscardedInspection" xml:space="preserve">
+    <value>メンバーは関数として書き込まれますが、常にプロシージャとして使用されます。'Function' を 'Sub' に変換することを検討してください。</value>
+  </data>
+  <data name="ObjectVariableNotSetInspection" xml:space="preserve">
+    <value>Rubberduck が知る限り、この変数は 'Set' キーワードなしで割り当てられたオブジェクト変数です。これは、変数が 'Nothing' 値かどうかによって、実行時エラー 91 'オブジェクトまたはブロック変数が設定されていません' または 438 'オブジェクトはこのプロパティまたはメソッドをサポートしていません' が発生します。</value>
+  </data>
+  <data name="MissingAnnotationArgumentInspection" xml:space="preserve">
+    <value>アノテーションパラメーターが見つからないか、正しく指定されていません。正しい構文は次のとおりです: '@Annotation([パラメーター])\n例: '@Folder("親.子")</value>
+  </data>
+  <data name="ModuleScopeDimKeywordInspection" xml:space="preserve">
+    <value>'Public' キーワードはモジュール レベルでのみ使用できます。対応する''プライベート' もモジュールレベルでのみ使用できます。ただし、'Dim' は、プロシージャとモジュール スコープ変数の両方を宣言するために使用できます。一貫性を保つには、ローカルに対して 'Dim' を予約し、モジュール レベルで 'Dim' の代わりに 'Private' を使用することをお勧めします。</value>
+  </data>
+  <data name="UndeclaredVariableInspection" xml:space="preserve">
+    <value>宣言されていない変数を使用するコードは、オプションの明示的な指定時にコンパイルされません。宣言されていない変数は常にバリアント型であり、不要なオーバーヘッドとストレージを発生するデータ型です。</value>
+  </data>
+  <data name="HungarianNotationInspection" xml:space="preserve">
+    <value>ハンガリアン記法は、コードの読み取りが容易ではなく、厳密に型指定された変数と意味のある名前を使用すると、冗長になります。</value>
+  </data>
+  <data name="MemberNotOnInterfaceInspection" xml:space="preserve">
+    <value>メンバー アクセス呼び出しは、Rubberduck が解決できなかった拡張インターフェイスに対して行われるか、メンバーが見つかりませんでした。VBA が実行時に型を解決できない場合は、エラー 438 が発生します。Rubberduck が解決できる同等の非拡張インターフェイスが利用可能な場合は、代わりに使用することを検討してください。</value>
+  </data>
+  <data name="HostSpecificExpressionInspection" xml:space="preserve">
+    <value>かっこで囲まれた式は実行時にホスト アプリケーションによって評価されるため、コンパイル時に VBA で式を検証できません。代わりに、ホスト アプリケーションのオブジェクト モデルを使用することを検討してください。</value>
+  </data>
+  <data name="ApplicationWorksheetFunctionInspection" xml:space="preserve">
+    <value>Excel アプリケーション オブジェクトは、直接、ワークシート関数インターフェイスを実装しません。WorksheetFunction メンバーに対するすべての呼び出しは遅延バインディングとして処理され、呼び出されたメンバーのエラーは VbVarType.vbError のバリアントにラップされて返されます。これにより、エラー ハンドラではトラップ不可能なエラーになり、事前バインディングされた呼び出しと比較してパフォーマンスが低下します。明示的に呼び出す必要があります。注: この呼び出しで過去にエラーが生成された場合、それらのエラーは無視されました。クイックフィックスを適用する場合は、適切なエラー処理が適切に行われる必要があります。</value>
+  </data>
+  <data name="OptionBaseZeroInspection" xml:space="preserve">
+    <value>これはデフォルト設定で、指定する必要はありません。</value>
+  </data>
+  <data name="InvalidAnnotationInspection" xml:space="preserve">
+    <value>アノテーションをターゲットにバインドできませんでした。アノテーションが間違っていますか?モジュール レベルで指定するアノテーションは、メンバーにアノテーションを付けるために使用できません。逆に、アノテーションをアノテーション付けするメンバを意味するアノテーションは、モジュール レベルでは使用できません。</value>
+  </data>
+  <data name="MissingAttributeInspection" xml:space="preserve">
+    <value>モジュールまたはメンバーに対して、Rubberduck のアノテーションが指定されていますが、対応する属性が存在しません。モジュールの属性とアノテーションを同期する必要があります。</value>
+  </data>
+  <data name="EmptyIfBlockInspection" xml:space="preserve">
+    <value>実行可能なステートメントを含まない空の条件分岐は、コードの意図について疑問を持たせます。記述する必要のないコードを記述しないでください。</value>
+  </data>
+  <data name="RedundantOptionInspection" xml:space="preserve">
+    <value>このオプションのデフォルト/暗黙的設定では、この命令を安全に省略できます。</value>
+  </data>
+  <data name="RedundantByRefModifierInspection" xml:space="preserve">
+    <value>デフォルトでは、すべてのパラメータが参照によって渡されるため、'ByRef' 修飾子を含める必要はありません。</value>
+  </data>
+  <data name="LineLabelNotUsedInspection" xml:space="preserve">
+    <value>ジャンプしない行ラベル('GoTo', 'Resume', ...)は目的を果たしません。削除することを検討してください。</value>
+  </data>
+  <data name="EmptyElseBlockInspection" xml:space="preserve">
+    <value>実行可能なステートメントを含まない空の 'Else' ループは、コードの意図について疑問を持たせます。記述する必要のないコードを記述しないでください。</value>
+  </data>
+  <data name="IntegerDataTypeInspection" xml:space="preserve">
+    <value>16 ビット符号付き整数の最大値は 32,767 で、可能な限り 32 ビット (Long) 整数データ型を使用すると、'Overflow' ランタイム エラーを防ぐのに役立ち、最新の CPU によって処理が向上します。</value>
+  </data>
+  <data name="StopKeywordInspection" xml:space="preserve">
+    <value>'Stop' キーワードは実行を停止し、デバッガーを起動します。分散コードでの使用を避けます。</value>
+  </data>
+  <data name="EmptyCaseBlockInspection" xml:space="preserve">
+    <value>実行可能なステートメントを含まない空の 'Case' ブロックは、コードの意図について疑問を持たせます。記述する必要のないコードを記述しないでください。</value>
+  </data>
+  <data name="EmptyDoWhileBlockInspection" xml:space="preserve">
+    <value>実行可能なステートメントのない空の 'Do...While' ループは、コードの意図について疑問を持たせます。記述する必要のないコードを記述しないでください。</value>
+  </data>
+  <data name="EmptyForEachBlockInspection" xml:space="preserve">
+    <value>実行可能ステートメントのない 'For Each...Next' ループは、コードの意図について疑問を持たせます。記述する必要のないコードを記述しないでください。</value>
+  </data>
+  <data name="EmptyForLoopBlockInspection" xml:space="preserve">
+    <value>実行可能ステートメントのない 'For...Next' ループは、コードの意図について疑問を持たせます。記述する必要のないコードを記述しないでください。</value>
+  </data>
+  <data name="EmptyWhileWendBlockInspection" xml:space="preserve">
+    <value>実行可能なステートメントのない 'Loop' ブロックは、コードの意図について疑問に思うままにします。記述する必要のないコードを記述しないでください。</value>
+  </data>
+  <data name="ShadowedDeclarationInspection" xml:space="preserve">
+    <value>2 つの宣言がスコープ内にあり、同じ識別子名を持ちます。完全修飾識別子名を使用することを検討してください。</value>
+  </data>
+  <data name="ObsoleteErrorSyntaxInspection" xml:space="preserve">
+    <value>'Error' ステートメントは、そのステートメントを必要とするレガシ コードをサポートする言語にのみ存在します。代わりに 'Err.Raise' を使用することを好みます。</value>
+  </data>
+  <data name="BooleanAssignedInIfElseInspection" xml:space="preserve">
+    <value>条件に他のステートメントがない if ステートメントの異なる分岐で、メンバに True/False が割り当てられます。代わりに、メンバーに直接条件を使用してください。</value>
+  </data>
+  <data name="EmptyModuleInspection" xml:space="preserve">
+    <value>空のモジュールとクラスは、まだ実装されていない機能を指すか、プロジェクトの保守性を損なう可能性のある不要な荷物を表します。</value>
+  </data>
+  <data name="UnreachableCaseInspection" xml:space="preserve">
+    <value>'Case' 条件は常に False に評価されるか、実行時エラーが発生するか、以前の 'Case' ステートメントの累積的な効果が、すべての可能な値または 'Case' ステートメントの値のスーパーセットを表します。 その結果、'Case' ブロックは実行されず、"デッドコード" になるか、'Case' ステートメントが発生するのを待っている実行時エラーです。'Case' ステートメントの削除、並べ替え、または変更を検討してください。</value>
+  </data>
+  <data name="UnhandledOnErrorResumeNextInspection" xml:space="preserve">
+    <value>エラー処理は、'On Error Resume Next' を使用した後に復元する必要があります。</value>
+  </data>
+  <data name="DefTypeStatementInspection" xml:space="preserve">
+    <value>'Def[Type]' ステートメントを使用すると、プレフィックスを使用して型を指定できます。このスタイルの名前は、お勧めしません。</value>
+  </data>
+  <data name="StepIsNotSpecifiedInspection" xml:space="preserve">
+    <value>for-next ループのステップが指定されていません。これは意図しない可能性があります。</value>
+  </data>
+  <data name="StepOneIsRedundantInspection" xml:space="preserve">
+    <value>1 は for-next ループのデフォルトステップであるため、冗長です。</value>
+  </data>
+  <data name="SheetAccessedUsingStringInspection" xml:space="preserve">
+    <value>Excel では、この参照を使用してグローバル スコープのオブジェクト変数が既に定義されています。シートの 'CodeName' プロパティを使用することを検討してください。</value>
+  </data>
+  <data name="ObsoleteMemberUsageInspection" xml:space="preserve">
+    <value>このメンバーは''@Obsolete' とマークされています。それはもはや使用されるべきではなく、より良い選択肢があるはずです。</value>
+  </data>
+  <data name="ObsoleteCallingConventionInspection" xml:space="preserve">
+    <value>Windows の実装では、StdCall 呼び出し規約のみがサポートされます。CDecl 呼び出し規約は、Macintosh バージョンの VBA でのみサポートされています。Windows でこのキーワードを使用すると、ランタイム エラー 49 - '無効な DLL 呼び出し規約' が発生します。この手順が Macintosh ホストでのみ使用される場合は、条件付きでコンパイルする必要があります。</value>
+  </data>
+  <data name="DuplicatedAnnotationInspection" xml:space="preserve">
+    <value>アノテーションは複数回指定されますが、1 回だけ指定されます。</value>
+  </data>
+  <data name="ModuleWithoutFolderInspection" xml:space="preserve">
+    <value>'@Folder' アノテーションのないモジュールは、コード エクスプローラーでカスタム グループを受け取ることができません。</value>
+  </data>
+  <data name="OnLocalErrorInspection" xml:space="preserve">
+    <value>ローカル エラーの場合、以前のバージョンの Visual Basic との互換性を保つためにのみ存在し、すべてのエラーはローカル エラーステートメントに関係なくローカルとして扱われます。このキーワードを不正確に使用すると、エラー処理の種類が区別されるという印象が生じます。</value>
+  </data>
+  <data name="IsMissingOnInappropriateArgumentInspection" xml:space="preserve">
+    <value>IsMissing は、省略可能な引数でのみ呼び出されることを意図しており、引数の型が明示的な既定値を持たない "Variant" の場合にのみ正しい結果を返します。その他の用途はすべて 'False' を返します。</value>
+  </data>
+  <data name="IsMissingWithNonArgumentParameterInspection" xml:space="preserve">
+    <value>IsMissing は、含まれているプロシージャの引数に対してのみ呼び出されることを意図しており、他のほとんどすべての使用法は 'False' を返します。関数に他の式を渡すことは 'VarType({式}) = vbError' と同等であり、まれにホスト アプリケーションがクラッシュする可能性があります。</value>
+  </data>
+  <data name="AssignmentNotUsedInspection" xml:space="preserve">
+    <value>割り当ては、別の割り当てによって直ちにオーバーライドされるか、参照されることはありません。</value>
+  </data>
+  <data name="UnderscoreInPublicClassModuleMemberInspection" xml:space="preserve">
+    <value>アンダースコアを持つメンバーを含むクラス モジュールは、他のクラスでは実装できません。アンダースコアは、インターフェイス/オブジェクト名と実装されたメンバー名の間の区切り文字として使用されます: メンバー名にアンダースコアを持つことは、コンパイラを混乱させ、プロジェクトのコンパイルを拒否します。パブリック メンバー名のアンダースコアは、'PascalCase' の名前付け規則に従って避けてください。</value>
+  </data>
+  <data name="ExcelMemberMayReturnNothingInspection" xml:space="preserve">
+    <value>オブジェクトを返すプロシージャは、'Nothing' を返す場合があります。その結果、後続のメンバー アクセスでランタイム エラー 91 - "オブジェクト変数または With ブロック変数が設定されていません" が発生します。'Set' 割り当ての後に 'Is Nothing' チェックを実行して、ランタイム エラーを防ぐ。</value>
+  </data>
+  <data name="ExcelUdfNameIsValidCellReferenceInspection" xml:space="preserve">
+    <value>Excel でユーザー定義関数として表示される関数は、ワークシートで使用すると、有効なセル参照の名前と一致する場合は '#REF!関数を UDF として使用する場合は、名前を変更する必要があります。関数が UDF として使用されることを意図していない場合は、スコープを 'Private' として指定するか、標準モジュールから移動する必要があります。</value>
+  </data>
+  <data name="AttributeValueOutOfSyncInspection" xml:space="preserve">
+    <value>モジュールまたはメンバーに対して、Rubberduck のアノテーションが指定されていますが、対応する属性の値が異なります。モジュールの属性とアノテーションを同期する必要があります。</value>
+  </data>
+  <data name="MissingMemberAnnotationInspection" xml:space="preserve">
+    <value>VBE にはメンバー属性は表示されません。アノテーションを追加することで、これらの属性をより明確にし、Rubberduck はアノテーションと属性の同期を維持できます。</value>
+  </data>
+  <data name="MissingModuleAnnotationInspection" xml:space="preserve">
+    <value>モジュール属性は VBE に表示されません。アノテーションを追加することで、これらの属性をより明確にし、Rubberduck はアノテーションと属性の同期を維持できます。</value>
+  </data>
+  <data name="KeywordsUsedAsMemberInspection" xml:space="preserve">
+    <value>キーワードは、列挙型またはユーザー定義型のメンバーとして使用されています。それはあいまいな解決につながる可能性があります。メンバーの名前を変更することを検討してください。</value>
+  </data>
+  <data name="LineContinuationBetweenKeywordsInspection" xml:space="preserve">
+    <value>キーワード間には行の継続があります。そこに置く正当な理由はありません。それらを完全に削除することを検討してください。</value>
+  </data>
+  <data name="NonBreakingSpaceIdentifierInspection" xml:space="preserve">
+    <value>識別子には、通常のスペース(識別子名では不正)のように見える改行のないスペースが含まれており、コードを難読化して混乱を招きます。識別子には、表示可能な文字を使用することを検討してください。</value>
+  </data>
+  <data name="NegativeLineNumberInspection" xml:space="preserve">
+    <value>負の行数は、実際には 16 進数リテラルとして入力され、VBE によって表現されます。行を再度編集すると、負の行数が実際には無効であるため、赤に変わります。</value>
+  </data>
+  <data name="OnErrorGoToMinusOneInspection" xml:space="preserve">
+    <value>これは合法ですが、これは何か異なることを意味する十分に文書化されていない "機能" です - エラー処理を無効にすることに加えて、エラー状態もクリアされます。ただし、-1 の負の行ラベルがターゲットとして終わる可能性があり、通常は、プロシージャをリファクタリングする必要があることを示す過度に複雑なエラー処理として、これはあいまいになる可能性があります。</value>
+  </data>
+  <data name="ObsoleteWhileWendStatementInspection" xml:space="preserve">
+    <value>'While...Wend' ループは後方互換性のために存在し、'Exit Do' 終了ステートメントをサポートする 'Do While...Loop' の導入に取って代わられました。'While...Wend' ループは、'While' 条件を満たす以外に終了できません。</value>
+  </data>
+  <data name="SetAssignmentWithIncompatibleObjectTypeInspection" xml:space="preserve">
+    <value>宣言されていないオブジェクト型 (同じ型、スーパータイプ、サブタイプのどちらも持たないオブジェクト型) を持つ変数にオブジェクトが割り当てられている場合、VBA コンパイラはエラーを発生しません。ほとんどすべての状況で、このような割り当ては、検出が困難であり、バグを示すランタイム エラーにつながります。その他のすべての状況では、互換性のある宣言された型間の代入のみを使用するようにコードを変更できます。</value>
+  </data>
+  <data name="EmptyMethodInspection" xml:space="preserve">
+    <value>実行可能なステートメントを持たないメソッドは、実際には行っていない何かを行っているように見える可能性があるため、予期しない動作を引き起こします。</value>
+  </data>
+  <data name="ImplementedInterfaceMemberInspection" xml:space="preserve">
+    <value>具象クラスのインターフェイスとして使用するクラス モジュールは、通常、実装を抽象化する必要があります。このクラス モジュールを具象型として使用する場合は、この検査結果を無視しても問題ありません。</value>
+  </data>
+  <data name="ArgumentWithIncompatibleObjectTypeInspection" xml:space="preserve">
+    <value>宣言されていないオブジェクト型 (同じ型、スーパータイプ、サブタイプのどちらも持たないオブジェクト型) を持つパラメーターの引数としてオブジェクトが渡された場合、VBA コンパイラはエラーを発生しません。このような引数を渡すほとんどの状況では、実行時エラーが発生し、検出が困難になり、バグを示します。その他のすべての状況では、コードは互換性のある宣言された型の引数のみを渡すために変更できます。</value>
+  </data>
+  <data name="ValueRequiredInspection" xml:space="preserve">
+    <value>値型を必要とする場所でオブジェクトが使用され、そのオブジェクトの宣言された型に適切な既定のメンバーがない場合、VBA コンパイラはエラーを発生しません。ほぼすべての状況で、これは、オブジェクトが 'Nothing' 値を持っているかどうかに応じて、実行時エラー 91 'オブジェクトまたはブロック変数が設定されていません' または 438 'オブジェクトはこのプロパティまたはメソッドをサポートしていません' で、検出が困難でバグを示します。</value>
+  </data>
+  <data name="ProcedureRequiredInspection" xml:space="preserve">
+    <value>プロシージャが必要な場所でオブジェクト変数が使用され、オブジェクトの宣言された型に適切な既定のメンバーがない場合、VBA コンパイラはエラーを発生しません。ほぼすべての状況で、これは、オブジェクトが 'Nothing' 値を持っているかどうかに応じて、実行時エラー 91 'オブジェクトまたはブロック変数が設定されていません' または 438 'オブジェクトはこのプロパティまたはメソッドをサポートしていません' で、検出が困難でバグを示します。</value>
+  </data>
+  <data name="DefaultMemberRequiredInspection" xml:space="preserve">
+    <value>インデックス付きの既定のメンバー呼び出しが必要なオブジェクトの宣言された型に適切な既定のメンバーがない場合、VBA コンパイラはエラーを発生しません。ほぼすべての状況で、これは、オブジェクトが 'Nothing' 値を持っているかどうかに応じて、実行時エラー 91 'オブジェクトまたはブロック変数が設定されていません' または 438 'オブジェクトはこのプロパティまたはメソッドをサポートしていません' で、検出が困難でバグを示します。</value>
+  </data>
+  <data name="UseOfBangNotationInspection" xml:space="preserve">
+    <value>正式には辞書アクセス式と呼ばれる Bang 表記は、厳密に型指定されているように見えます。ただし、実際には、文字列で型指定されたアクセスで、使用されるオブジェクトのパラメーター化された既定のメンバーにアクセスします。</value>
+  </data>
+  <data name="UseOfRecursiveBangNotationInspection" xml:space="preserve">
+    <value>正式には辞書アクセス式と呼ばれる Bang 表記は、厳密に型指定されているように見えます。ただし、実際には、文字列で型指定されたアクセスで、使用されるオブジェクトのパラメーター化された既定のメンバーにアクセスします。これは、パラメーター化された既定のメンバーがオブジェクト自体に含まれていない場合、パラメーターなしの既定のメンバーを最初に呼び出すことによってのみ到達できる場合、特に誤解を招きます。</value>
+  </data>
+  <data name="UseOfUnboundBangNotationInspection" xml:space="preserve">
+    <value>正式には辞書アクセス式と呼ばれるBang表記は、厳密に型指定されているように見えます。ただし、実際には、文字列で型指定されたアクセスで、使用されるオブジェクトのパラメーター化された既定のメンバーにアクセスします。これは、コンパイル時に既定のメンバを特定できない場合に特に誤解を招きます。</value>
+  </data>
+  <data name="ObjectWhereProcedureIsRequiredInspection" xml:space="preserve">
+    <value>プロシージャを必要とする場所で、オブジェクトを既定のメンバーで使用すると、既定のメンバーが暗黙的に呼び出されます。これは意図しない可能性が高く、読みやすさが低下します。</value>
+  </data>
+  <data name="IndexedDefaultMemberAccessInspection" xml:space="preserve">
+    <value>既定のメンバー アクセスは、実際に呼び出されるメンバーを隠します。インデックス付きのデフォルトメンバアクセスが明示的である場合に何らかの呼び出しが行われることは明らかですが、通常は読みやすさを高める方が良いです。</value>
+  </data>
+  <data name="IndexedRecursiveDefaultMemberAccessInspection" xml:space="preserve">
+    <value>既定のメンバー アクセスは、実際に呼び出されるメンバーを隠します。インデックス付きのデフォルトメンバアクセスが明示的である場合に何らかの呼び出しが行われることは明らかですが、通常は読みやすさを高める方が良いです。これは、アクセスされるデフォルト・メンバーがオブジェクト自体のインターフェース上にはないが、デフォルト・メンバー呼び出しのチェーンを介して解決しなければならない場合に特に保持されます。</value>
+  </data>
+  <data name="IndexedUnboundDefaultMemberAccessInspection" xml:space="preserve">
+    <value>既定のメンバー アクセスは、実際に呼び出されるメンバーを隠します。インデックス付きのデフォルトメンバアクセスが明示的である場合に何らかの呼び出しが行われることは明らかですが、通常は読みやすさを高める方が良いです。コンパイル時に既定のメンバーを決定できない場合は、特にこの問題が発生します。また、実行時に適切な既定のメンバがない場合は、エラー 438 'オブジェクトはこのプロパティまたはメソッドをサポートしていません' が発生します。</value>
+  </data>
+  <data name="ImplicitDefaultMemberAccessInspection" xml:space="preserve">
+    <value>既定のメンバ アクセスは、実際に呼び出されたメンバを隠します。このような呼び出しが行われたことを式に示さない場合、これは特に誤解を招きます。メンバーが見過ごされなくなるように呼び出され忘れたエラーが発生する可能性があります。</value>
+  </data>
+  <data name="ImplicitRecursiveDefaultMemberAccessInspection" xml:space="preserve">
+    <value>既定のメンバ アクセスは、実際に呼び出されたメンバを隠します。このような呼び出しが行われたことを式に示す標識がなく、最終的な既定のメンバーがオブジェクト自体のインターフェイスに存在しない場合、これは特に誤解を招きます。特に、メンバーが気付かれないように呼び出され忘れてしまうエラーが発生する可能性があります。</value>
+  </data>
+  <data name="ImplicitUnboundDefaultMemberAccessInspection" xml:space="preserve">
+    <value>既定のメンバ アクセスは、実際に呼び出されたメンバを隠します。このような呼び出しが行われたことを式に示す標識がなく、既定のメンバーをオブジェクトの宣言された型から判断できない場合、これは特に誤解を招きます。その結果、メンバーが呼び出され忘れた場合、エラーが気付かれず、実行時に適切な既定のメンバーが存在しない場合、エラー 438 'Object はこのプロパティまたはメソッドをサポートしていません' が発生します。</value>
+  </data>
+  <data name="SuspiciousLetAssignmentInspection" xml:space="preserve">
+    <value>Set を使用しない割り当ての両側がオブジェクトである場合は、RHS のデフォルトメンバーから LHS 上のメンバーへの割り当てがあります。これは意図的かもしれませんが、多くの状況では誤って忘れ去られたセットをマスクするだけです。</value>
+  </data>
+  <data name="FunctionReturnValueDiscardedInspection" xml:space="preserve">
+    <value>関数の戻り値は破棄され、つまり関数は 'Sub' プロシージャのように使用されます。これは見落としか、または関数がその副作用のために使用され、その存在はコードの匂いでもあります。</value>
+  </data>
+  <data name="ImplicitlyTypedConstInspection" xml:space="preserve">
+    <value>'Const' 宣言の 'As' 型句が含まれていない場合、暗黙的に型指定されます。定数値を明示的に入力するには、明示的な ' As &lt;Type&gt;' ' 置換 '&lt;Type&gt;を正しいデータ型に含めます。&lt;/Type&gt; &lt;/Type&gt;</value>
+  </data>
+  <data name="SuperfluousAnnotationArgumentInspection" xml:space="preserve">
+    <value>アノテーションに許容される数を超える引数があります。余分な引数は無視されます。</value>
+  </data>
+  <data name="ImplicitContainingWorkbookReferenceInspection" xml:space="preserve">
+    <value>ブック ドキュメント モジュール内のブック メンバーへの暗黙的な参照は、アクティブなブックへの暗黙的な参照と間違える可能性があります。これらのメンバー呼び出しを 'Me' で明示的に修飾することで、あいまいさを解決できます。目的がアクティブなブックを参照する場合は、バグを防ぐために 'ActiveWorkbook' で修飾します。</value>
+  </data>
+  <data name="ImplicitContainingWorksheetReferenceInspection" xml:space="preserve">
+    <value>ワークシート ドキュメント モジュール内のワークシート メンバーへの暗黙的な参照は、アクティブ なワークシートへの暗黙的な参照とは間違え、他のすべてのモジュールでの動作です。これらのメンバー呼び出しを 'Me' で明示的に修飾することで、あいまいさを解決できます。目的がアクティブなワークシートを参照する場合は、バグを防ぐために 'ActiveSheet' で修飾します。</value>
+  </data>
+  <data name="MisleadingByRefParameterInspection" xml:space="preserve">
+    <value>プロパティミュータ (Let/Set) の最後のパラメータ ('Value' パラメータ) は常に ByVal で渡されます。これは、ByRef または ByVal 修飾子の有無に関係なく当てはまります。例外: プロパティ ミュータの最後のパラメーターであっても、常にユーザー定義型を ByRef 渡す必要があります。</value>
+  </data>
+  <data name="AnnotationInIncompatibleComponentTypeInspection" xml:space="preserve">
+    <value>アノテーションと互換性のない型のモジュールでアノテーションが指定されました。アノテーションの中には、特定の型のモジュールでのみ使用できるものもあります。特定のタイプのモジュールでは使用できません。</value>
+  </data>
+  <data name="UnrecognizedAnnotationInspection" xml:space="preserve">
+    <value>コメントは構文的に有効なアノテーションとして解析されましたが、サポートされているアノテーションの種類として認識されませんでした。</value>
+  </data>
+</root>

@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EmptyStringLiteralInspectionQuickFix" xml:space="preserve">
+    <value>空の文字列リテラルを 'vbNullString' 定数に置換</value>
+  </data>
+  <data name="EncapsulatePublicFieldInspectionQuickFix" xml:space="preserve">
+    <value>プロパティを使用してフィールド '{0}' をカプセル化する</value>
+  </data>
+  <data name="IgnoreOnce" xml:space="preserve">
+    <value>一度無視</value>
+  </data>
+  <data name="ProcedureShouldBeFunctionInspectionQuickFix" xml:space="preserve">
+    <value>関数として実装し、使用状況を更新します。</value>
+  </data>
+  <data name="ConvertFunctionToProcedureQuickFix" xml:space="preserve">
+    <value>関数をプロシージャに変換</value>
+  </data>
+  <data name="DeclareAsExplicitVariantQuickFix" xml:space="preserve">
+    <value>明示的なバリアントとして宣言</value>
+  </data>
+  <data name="ImplicitByRefModifierQuickFix" xml:space="preserve">
+    <value>参照渡しでパラメーターを明示的に渡す</value>
+  </data>
+  <data name="MakeSingleLineParameterQuickFix" xml:space="preserve">
+    <value>変数を 1 行に書き込む</value>
+  </data>
+  <data name="ObsoleteGlobalInspectionQuickFix" xml:space="preserve">
+    <value>'Global' アクセス修飾子を 'Public' に置換</value>
+  </data>
+  <data name="OptionExplicitQuickFix" xml:space="preserve">
+    <value>'Option Explicit' を指定</value>
+  </data>
+  <data name="PassParameterByReferenceQuickFix" xml:space="preserve">
+    <value>参照渡しでパラメーターを渡す</value>
+  </data>
+  <data name="PassParameterByValueQuickFix" xml:space="preserve">
+    <value>値渡しでパラメーターを渡す</value>
+  </data>
+  <data name="UseTypedFunctionQuickFix" xml:space="preserve">
+    <value>'{0}' を '{1}' に変更</value>
+  </data>
+  <data name="RemoveCommentQuickFix" xml:space="preserve">
+    <value>コメントを削除</value>
+  </data>
+  <data name="RemoveObsoleteStatementQuickFix" xml:space="preserve">
+    <value>古いステートメントを削除</value>
+  </data>
+  <data name="RemoveTypeHintsQuickFix" xml:space="preserve">
+    <value>型のヒントを削除</value>
+  </data>
+  <data name="RemoveUnassignedIdentifierQuickFix" xml:space="preserve">
+    <value>未割り当ての変数を削除</value>
+  </data>
+  <data name="RemoveUnassignedVariableUsageQuickFix" xml:space="preserve">
+    <value>使用を削除 (コードを中断する)</value>
+  </data>
+  <data name="RemoveUnusedDeclarationQuickFix" xml:space="preserve">
+    <value>未使用の宣言を削除</value>
+  </data>
+  <data name="RemoveUnusedParameterQuickFix" xml:space="preserve">
+    <value>未使用のパラメータを削除</value>
+  </data>
+  <data name="ReplaceCommentMarkerQuickFix" xml:space="preserve">
+    <value>Rem' の使用を一重引用符のコメント マーカーに置換</value>
+  </data>
+  <data name="SetExplicitVariantReturnTypeQuickFix" xml:space="preserve">
+    <value>明示的なバリアント型を返却</value>
+  </data>
+  <data name="SpecifyExplicitPublicModifierQuickFix" xml:space="preserve">
+    <value>パブリック アクセス修飾子を明示的に指定</value>
+  </data>
+  <data name="SplitMultipleDeclarationsQuickFix" xml:space="preserve">
+    <value>複数の宣言を複数の命令に分ける</value>
+  </data>
+  <data name="InvalidContextTypeInspectionFix" xml:space="preserve">
+    <value>コンテキストの種類 '{0}' は {1} に対して無効です。</value>
+  </data>
+  <data name="SetObjectVariableQuickFix" xml:space="preserve">
+    <value>'Set' キーワードを使用</value>
+  </data>
+  <data name="IntroduceGetAccessorQuickFix" xml:space="preserve">
+    <value>'Property Get' アクセサーを追加</value>
+  </data>
+  <data name="ChangeDimToPrivateQuickFix" xml:space="preserve">
+    <value>'Dim' を 'Private' に置換</value>
+  </data>
+  <data name="IntroduceLocalVariableQuickFix" xml:space="preserve">
+    <value>ローカル変数の導入</value>
+  </data>
+  <data name="WhiteListIdentifierQuickFix" xml:space="preserve">
+    <value>ホワイトリストに追加</value>
+  </data>
+  <data name="ApplicationWorksheetFunctionQuickFix" xml:space="preserve">
+    <value>事前バインドアプリケーションを使用します。</value>
+  </data>
+  <data name="AssignedByValParameterMakeLocalCopyQuickFix" xml:space="preserve">
+    <value>パラメータのローカル コピーを作成して使用</value>
+  </data>
+  <data name="RemoveOptionBaseStatementQuickFix" xml:space="preserve">
+    <value>Option Base' ステートメントを削除</value>
+  </data>
+  <data name="SynchronizeAttributesQuickFix" xml:space="preserve">
+    <value>モジュール内の属性/アノテーションの同期</value>
+  </data>
+  <data name="RemoveEmptyIfBlockQuickFix" xml:space="preserve">
+    <value>空の If ブロックを削除</value>
+  </data>
+  <data name="RedundantByRefModifierQuickFix" xml:space="preserve">
+    <value>ByRef' 修飾子を削除</value>
+  </data>
+  <data name="RemoveEmptyElseBlockQuickFix" xml:space="preserve">
+    <value>空の 'Else' ブロックを削除</value>
+  </data>
+  <data name="IntegerDataTypeQuickFix" xml:space="preserve">
+    <value>型を 'Long' に変更</value>
+  </data>
+  <data name="RemoveStopKeywordQuickFix" xml:space="preserve">
+    <value>Stop' キーワードの使用を削除</value>
+  </data>
+  <data name="ReplaceObsoleteErrorStatementQuickFix" xml:space="preserve">
+    <value>'Error' を 'Err.Raise' に置換</value>
+  </data>
+  <data name="ReplaceIfElseWithConditionalStatementQuickFix" xml:space="preserve">
+    <value>If/Else を単一の割り当てで置換</value>
+  </data>
+  <data name="UnhandledOnErrorResumeNextInspectionQuickFix" xml:space="preserve">
+    <value>エラー処理サブルーチンの導入</value>
+  </data>
+  <data name="RemoveStepOneQuickFix" xml:space="preserve">
+    <value>冗長な 'Step' 句を削除</value>
+  </data>
+  <data name="AddStepOneQuickFix" xml:space="preserve">
+    <value>明示的な 'Step' 句を追加</value>
+  </data>
+  <data name="AccessSheetUsingCodeNameQuickFix" xml:space="preserve">
+    <value>静的アクセス可能なシートをコード名で参照</value>
+  </data>
+  <data name="RemoveDuplicatedAnnotationQuickFix" xml:space="preserve">
+    <value>重複したアノテーションを削除</value>
+  </data>
+  <data name="RemoveLocalErrorQuickFix" xml:space="preserve">
+    <value>'On Local Error' を 'On Error' に置き換えます。</value>
+  </data>
+  <data name="IsMissingOnInappropriateArgumentQuickFix" xml:space="preserve">
+    <value>'IsMissing' 呼び出しを変更して、既定値をテストします。</value>
+  </data>
+  <data name="AddMissingAttributeQuickFix" xml:space="preserve">
+    <value>不足している属性を追加</value>
+  </data>
+  <data name="AdjustAttributeValuesQuickFix" xml:space="preserve">
+    <value>属性値の調整</value>
+  </data>
+  <data name="RemoveAttributeQuickFix" xml:space="preserve">
+    <value>属性の削除</value>
+  </data>
+  <data name="RemoveAnnotationQuickFix" xml:space="preserve">
+    <value>アノテーションを削除</value>
+  </data>
+  <data name="AdjustAttributeAnnotationQuickFix" xml:space="preserve">
+    <value>属性のアノテーションを調整</value>
+  </data>
+  <data name="AddAttributeAnnotationQuickFix" xml:space="preserve">
+    <value>属性のアノテーションを追加</value>
+  </data>
+  <data name="ApplyQuickFixesFailedMessage" xml:space="preserve">
+    <value>クイック修正を適用できませんでした。</value>
+  </data>
+  <data name="StaleModuleFailureReason" xml:space="preserve">
+    <value>影響を受けるモジュールは、最後の解析以降に変更されています。</value>
+  </data>
+  <data name="ApplyQuickFixFailedCaption" xml:space="preserve">
+    <value>アプリケーションのクイック修正の失敗</value>
+  </data>
+  <data name="ReplaceWhileWendWithDoWhileLoopQuickFix" xml:space="preserve">
+    <value>'While...Wend' を 'Do While...Loop' に置換</value>
+  </data>
+  <data name="ExpandBangNotationQuickFix" xml:space="preserve">
+    <value>バン表記を明示的なアクセスで置き換える</value>
+  </data>
+  <data name="ExpandDefaultMemberQuickFix" xml:space="preserve">
+    <value>既定のメンバー アクセスを明示的にする</value>
+  </data>
+  <data name="IgnoreInModuleQuickFix" xml:space="preserve">
+    <value>モジュール内で無視</value>
+  </data>
+  <data name="DeclareAsExplicitTypeQuickFix" xml:space="preserve">
+    <value>明示的な型として宣言する</value>
+  </data>
+  <data name="QualifyWithMeQuickFix" xml:space="preserve">
+    <value>参照を 'Me' で修飾します。</value>
+  </data>
+  <data name="AnnotateEntryPointQuickFix" xml:space="preserve">
+    <value>@EntryPoint アノテーションを追加する</value>
+  </data>
+</root>

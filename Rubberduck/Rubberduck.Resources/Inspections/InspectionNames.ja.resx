@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AssignedByValParameterInspection" xml:space="preserve">
+    <value>ByVal パラメーターが割り当てられます。</value>
+  </data>
+  <data name="ConstantNotUsedInspection" xml:space="preserve">
+    <value>定数は使用されません。</value>
+  </data>
+  <data name="DefaultProjectNameInspection" xml:space="preserve">
+    <value>プロジェクト名が指定されていません</value>
+  </data>
+  <data name="EmptyStringLiteralInspection" xml:space="preserve">
+    <value>空文字列リテラル</value>
+  </data>
+  <data name="EncapsulatePublicFieldInspection" xml:space="preserve">
+    <value>パブリック フィールドがカプセル化を壊しています</value>
+  </data>
+  <data name="ImplicitActiveSheetReferenceInspection" xml:space="preserve">
+    <value>アクティブシートへの暗黙的な参照</value>
+  </data>
+  <data name="ImplicitActiveWorkbookReferenceInspection" xml:space="preserve">
+    <value>アクティブブックへの暗黙的な参照</value>
+  </data>
+  <data name="ImplicitByRefModifierInspection" xml:space="preserve">
+    <value>暗黙的な ByRef パラメーター</value>
+  </data>
+  <data name="ImplicitPublicMemberInspection" xml:space="preserve">
+    <value>暗黙的にパブリック メンバー</value>
+  </data>
+  <data name="ImplicitVariantReturnTypeInspection" xml:space="preserve">
+    <value>メンバーの戻り値の型は暗黙的に 'Variant' です。</value>
+  </data>
+  <data name="MoveFieldCloserToUsageInspection" xml:space="preserve">
+    <value>変数の範囲は、必要以上に広い。</value>
+  </data>
+  <data name="MultilineParameterInspection" xml:space="preserve">
+    <value>パラメーターの宣言は複数行で分割されます。</value>
+  </data>
+  <data name="MultipleDeclarationsInspection" xml:space="preserve">
+    <value>単一命令での複数の宣言</value>
+  </data>
+  <data name="NonReturningFunctionInspection" xml:space="preserve">
+    <value>返されない関数またはプロパティの取得</value>
+  </data>
+  <data name="ObsoleteCallStatementInspection" xml:space="preserve">
+    <value>廃止された 'Call' ステートメントの使用</value>
+  </data>
+  <data name="ObsoleteCommentSyntaxInspection" xml:space="preserve">
+    <value>廃止された 'Rem' ステートメントの使用</value>
+  </data>
+  <data name="ObsoleteGlobalInspection" xml:space="preserve">
+    <value>廃止された 'Global' アクセス修飾子の使用</value>
+  </data>
+  <data name="ObsoleteLetStatementInspection" xml:space="preserve">
+    <value>廃止された明示的な 'Let' ステートメントの使用</value>
+  </data>
+  <data name="ObsoleteTypeHintInspection" xml:space="preserve">
+    <value>古い型ヒントの使用法</value>
+  </data>
+  <data name="OptionBaseInspection" xml:space="preserve">
+    <value>'Option Base 1' が指定されています。</value>
+  </data>
+  <data name="OptionExplicitInspection" xml:space="preserve">
+    <value>'Option Explicit' が指定されていません。</value>
+  </data>
+  <data name="ParameterCanBeByValInspection" xml:space="preserve">
+    <value>パラメータは値渡し可能です。</value>
+  </data>
+  <data name="ParameterNotUsedInspection" xml:space="preserve">
+    <value>パラメータは参照されません。</value>
+  </data>
+  <data name="ProcedureNotUsedInspection" xml:space="preserve">
+    <value>プロシージャは参照されません。</value>
+  </data>
+  <data name="UnassignedVariableUsageInspection" xml:space="preserve">
+    <value>変数は使用されますが、割り当てられません。</value>
+  </data>
+  <data name="UntypedFunctionUsageInspection" xml:space="preserve">
+    <value>バリアントを返す文字列関数の使用</value>
+  </data>
+  <data name="UseMeaningfulNameInspection" xml:space="preserve">
+    <value>意味のある名前を使用する</value>
+  </data>
+  <data name="VariableNotAssignedInspection" xml:space="preserve">
+    <value>変数が割り当てられていません。</value>
+  </data>
+  <data name="VariableNotUsedInspection" xml:space="preserve">
+    <value>変数は参照されません。</value>
+  </data>
+  <data name="VariableTypeNotDeclaredInspection" xml:space="preserve">
+    <value>暗黙的に 'Variant' 変数</value>
+  </data>
+  <data name="WriteOnlyPropertyInspection" xml:space="preserve">
+    <value>書き込み専用プロパティ</value>
+  </data>
+  <data name="ProcedureCanBeWrittenAsFunctionInspection" xml:space="preserve">
+    <value>プロシージャは関数として記述できます。</value>
+  </data>
+  <data name="SelfAssignedDeclarationInspection" xml:space="preserve">
+    <value>オブジェクト変数参照は自動インスタンス化されます。</value>
+  </data>
+  <data name="FunctionReturnValueAlwaysDiscardedInspection" xml:space="preserve">
+    <value>関数の戻り値は常に破棄されます。</value>
+  </data>
+  <data name="ObjectVariableNotSetInspection" xml:space="preserve">
+    <value>オブジェクト変数の割り当てには 'Set' キーワードが必要です。</value>
+  </data>
+  <data name="MissingAnnotationArgumentInspection" xml:space="preserve">
+    <value>アノテーションパラメーターがありません</value>
+  </data>
+  <data name="ModuleScopeDimKeywordInspection" xml:space="preserve">
+    <value>モジュール レベルでの 'Dim' キーワードの使用</value>
+  </data>
+  <data name="UndeclaredVariableInspection" xml:space="preserve">
+    <value>宣言されていない変数</value>
+  </data>
+  <data name="HungarianNotationInspection" xml:space="preserve">
+    <value>変数はハンガリアン記法を使用します。</value>
+  </data>
+  <data name="MemberNotOnInterfaceInspection" xml:space="preserve">
+    <value>メンバーが見つかりません</value>
+  </data>
+  <data name="HostSpecificExpressionInspection" xml:space="preserve">
+    <value>ホスト固有の角括弧式は実行時にのみ評価されます。</value>
+  </data>
+  <data name="ApplicationWorksheetFunctionInspection" xml:space="preserve">
+    <value>遅延バインドされたワークシート関数呼び出し。</value>
+  </data>
+  <data name="OptionBaseZeroInspection" xml:space="preserve">
+    <value>'Option Base 0' は冗長です</value>
+  </data>
+  <data name="InvalidAnnotationInspection" xml:space="preserve">
+    <value>無効なアノテーション</value>
+  </data>
+  <data name="MissingAttributeInspection" xml:space="preserve">
+    <value>属性がありません</value>
+  </data>
+  <data name="EmptyIfBlockInspection" xml:space="preserve">
+    <value>空の条件分岐</value>
+  </data>
+  <data name="RedundantOptionInspection" xml:space="preserve">
+    <value>冗長モジュール オプション</value>
+  </data>
+  <data name="RedundantByRefModifierInspection" xml:space="preserve">
+    <value>冗長 'ByRef' 修飾子</value>
+  </data>
+  <data name="LineLabelNotUsedInspection" xml:space="preserve">
+    <value>ライン ラベルは使用されません</value>
+  </data>
+  <data name="EmptyElseBlockInspection" xml:space="preserve">
+    <value>空の 'Else' ブロック</value>
+  </data>
+  <data name="IntegerDataTypeInspection" xml:space="preserve">
+    <value>16 ビット整数型の使用</value>
+  </data>
+  <data name="StopKeywordInspection" xml:space="preserve">
+    <value>'Stop' キーワード</value>
+  </data>
+  <data name="EmptyCaseBlockInspection" xml:space="preserve">
+    <value>空の 'Case' ブロック</value>
+  </data>
+  <data name="EmptyDoWhileBlockInspection" xml:space="preserve">
+    <value>空の 'Do...While' ループ</value>
+  </data>
+  <data name="EmptyForEachBlockInspection" xml:space="preserve">
+    <value>空の 'For Each...Next' ループ</value>
+  </data>
+  <data name="EmptyForLoopBlockInspection" xml:space="preserve">
+    <value>空の 'For...Next' ループ</value>
+  </data>
+  <data name="EmptyWhileWendBlockInspection" xml:space="preserve">
+    <value>空の 'While...Wend' ループ</value>
+  </data>
+  <data name="ShadowedDeclarationInspection" xml:space="preserve">
+    <value>隠し宣言</value>
+  </data>
+  <data name="BooleanAssignedInIfElseInspection" xml:space="preserve">
+    <value>条件内のブールリテラル代入</value>
+  </data>
+  <data name="EmptyModuleInspection" xml:space="preserve">
+    <value>空のモジュール</value>
+  </data>
+  <data name="ObsoleteErrorSyntaxInspection" xml:space="preserve">
+    <value>廃止された 'Error' ステートメントの使用</value>
+  </data>
+  <data name="UnreachableCaseInspection" xml:space="preserve">
+    <value>Case 条項に到達できません。</value>
+  </data>
+  <data name="UnhandledOnErrorResumeNextInspection" xml:space="preserve">
+    <value>未処理の 'On Error Resume Next'</value>
+  </data>
+  <data name="DefTypeStatementInspection" xml:space="preserve">
+    <value>'Def[Type]' ステートメントの使用法</value>
+  </data>
+  <data name="StepIsNotSpecifiedInspection" xml:space="preserve">
+    <value>'For...Next' ループステップが指定されていません</value>
+  </data>
+  <data name="StepOneIsRedundantInspection" xml:space="preserve">
+    <value>'For...Next' ループの step 1 は冗長です</value>
+  </data>
+  <data name="SheetAccessedUsingStringInspection" xml:space="preserve">
+    <value>文字列を使用してアクセス可能な静的シート</value>
+  </data>
+  <data name="ObsoleteMemberUsageInspection" xml:space="preserve">
+    <value>'@Obsolete' とマークされたメンバが使用されます。</value>
+  </data>
+  <data name="ObsoleteCallingConventionInspection" xml:space="preserve">
+    <value>Windows での 'CDecl' 呼び出し規約の使用</value>
+  </data>
+  <data name="DuplicatedAnnotationInspection" xml:space="preserve">
+    <value>アノテーションが重複しています</value>
+  </data>
+  <data name="ModuleWithoutFolderInspection" xml:space="preserve">
+    <value>@Folder' アノテーションのないモジュール</value>
+  </data>
+  <data name="OnLocalErrorInspection" xml:space="preserve">
+    <value>ローカル エラー ステートメント</value>
+  </data>
+  <data name="IsMissingOnInappropriateArgumentInspection" xml:space="preserve">
+    <value>'IsMissing' の不適切な使用 - パラメーターは 'Variant' ではありません</value>
+  </data>
+  <data name="IsMissingWithNonArgumentParameterInspection" xml:space="preserve">
+    <value>'IsMissing' の不適切な使用 - パラメーターはローカル変数です</value>
+  </data>
+  <data name="AssignmentNotUsedInspection" xml:space="preserve">
+    <value>割り当ては使用されません</value>
+  </data>
+  <data name="UnderscoreInPublicClassModuleMemberInspection" xml:space="preserve">
+    <value>パブリック クラス モジュール メンバーのアンダースコア</value>
+  </data>
+  <data name="ExcelMemberMayReturnNothingInspection" xml:space="preserve">
+    <value>メンバーアクセスは 'Nothing' を返す場合があります</value>
+  </data>
+  <data name="ExcelUdfNameIsValidCellReferenceInspection" xml:space="preserve">
+    <value>Excel セル参照によって関数が非表示になっている</value>
+  </data>
+  <data name="AttributeValueOutOfSyncInspection" xml:space="preserve">
+    <value>値が属性とアノテーションの間で一致しません</value>
+  </data>
+  <data name="MissingMemberAnnotationInspection" xml:space="preserve">
+    <value>メンバーのアノテーションがありません</value>
+  </data>
+  <data name="MissingModuleAnnotationInspection" xml:space="preserve">
+    <value>モジュールのアノテーションがありません</value>
+  </data>
+  <data name="KeywordsUsedAsMemberInspection" xml:space="preserve">
+    <value>メンバ名として使用されるキーワード</value>
+  </data>
+  <data name="LineContinuationBetweenKeywordsInspection" xml:space="preserve">
+    <value>キーワード間の行の継続</value>
+  </data>
+  <data name="NonBreakingSpaceIdentifierInspection" xml:space="preserve">
+    <value>改行しないスペースを含む識別子</value>
+  </data>
+  <data name="NegativeLineNumberInspection" xml:space="preserve">
+    <value>負の行番号</value>
+  </data>
+  <data name="OnErrorGoToMinusOneInspection" xml:space="preserve">
+    <value>OnErrorGoto -1</value>
+  </data>
+  <data name="ObsoleteWhileWendStatementInspection" xml:space="preserve">
+    <value>時代遅れの 'While...Wend' の使用</value>
+  </data>
+  <data name="SetAssignmentWithIncompatibleObjectTypeInspection" xml:space="preserve">
+    <value>互換性のないオブジェクト タイプを使用して割り当てを設定する</value>
+  </data>
+  <data name="EmptyMethodInspection" xml:space="preserve">
+    <value>空のメソッド</value>
+  </data>
+  <data name="ImplementedInterfaceMemberInspection" xml:space="preserve">
+    <value>インターフェイス クラスの実装済みメンバー</value>
+  </data>
+  <data name="ArgumentWithIncompatibleObjectTypeInspection" xml:space="preserve">
+    <value>互換性のないオブジェクト型の引数</value>
+  </data>
+  <data name="ValueRequiredInspection" xml:space="preserve">
+    <value>値が必要な場所で使用されるオブジェクト</value>
+  </data>
+  <data name="ProcedureRequiredInspection" xml:space="preserve">
+    <value>プロシージャが必要な場合に既定のメンバーを使用しないオブジェクト</value>
+  </data>
+  <data name="DefaultMemberRequiredInspection" xml:space="preserve">
+    <value>既定のメンバを使用しないインデックス付きの既定メンバ アクセス</value>
+  </data>
+  <data name="UseOfBangNotationInspection" xml:space="preserve">
+    <value>バン表記の使用</value>
+  </data>
+  <data name="UseOfRecursiveBangNotationInspection" xml:space="preserve">
+    <value>再帰的なバンの表記法の使用</value>
+  </data>
+  <data name="UseOfUnboundBangNotationInspection" xml:space="preserve">
+    <value>非バインドバン表記の使用</value>
+  </data>
+  <data name="ObjectWhereProcedureIsRequiredInspection" xml:space="preserve">
+    <value>プロシージャが必要な場所で使用されるオブジェクト</value>
+  </data>
+  <data name="IndexedDefaultMemberAccessInspection" xml:space="preserve">
+    <value>インデックス付きの既定のメンバ アクセス</value>
+  </data>
+  <data name="IndexedRecursiveDefaultMemberAccessInspection" xml:space="preserve">
+    <value>インデックス付き再帰的な既定のメンバ アクセス</value>
+  </data>
+  <data name="IndexedUnboundDefaultMemberAccessInspection" xml:space="preserve">
+    <value>インデックス付き非バインドの既定メンバ アクセス</value>
+  </data>
+  <data name="ImplicitDefaultMemberAccessInspection" xml:space="preserve">
+    <value>暗黙的な既定のメンバー アクセス</value>
+  </data>
+  <data name="ImplicitRecursiveDefaultMemberAccessInspection" xml:space="preserve">
+    <value>暗黙的な再帰的な既定のメンバ アクセス</value>
+  </data>
+  <data name="ImplicitUnboundDefaultMemberAccessInspection" xml:space="preserve">
+    <value>暗黙的なバインドされていない既定のメンバー アクセス</value>
+  </data>
+  <data name="SuspiciousLetAssignmentInspection" xml:space="preserve">
+    <value>不審なレットの割り当て</value>
+  </data>
+  <data name="FunctionReturnValueDiscardedInspection" xml:space="preserve">
+    <value>関数の戻り値は破棄されます。</value>
+  </data>
+  <data name="ImplicitlyTypedConstInspection" xml:space="preserve">
+    <value>暗黙的に型指定された Const</value>
+  </data>
+  <data name="SuperfluousAnnotationArgumentInspection" xml:space="preserve">
+    <value>余分なアノテーション引数</value>
+  </data>
+  <data name="ImplicitContainingWorksheetReferenceInspection" xml:space="preserve">
+    <value>ワークシート モジュールへの暗黙的な参照</value>
+  </data>
+  <data name="ImplicitContainingWorkbookReferenceInspection" xml:space="preserve">
+    <value>ブック モジュールへの暗黙的な参照</value>
+  </data>
+  <data name="MisleadingByRefParameterInspection" xml:space="preserve">
+    <value>誤解を招く ByRef パラメータ修飾子</value>
+  </data>
+  <data name="AnnotationInIncompatibleComponentTypeInspection" xml:space="preserve">
+    <value>互換性のない型を持つコンポーネントのアノテーション</value>
+  </data>
+  <data name="UnrecognizedAnnotationInspection" xml:space="preserve">
+    <value>認識されないアノテーション</value>
+  </data>
+</root>

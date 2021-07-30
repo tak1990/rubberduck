@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CodeExplorerDockablePresenter_Caption" xml:space="preserve">
+    <value>コード エクスプローラ</value>
+  </data>
+  <data name="CodeExplorerDockablePresenter_ParseStarted" xml:space="preserve">
+    <value>{0} (解析中...)</value>
+  </data>
+  <data name="CodeExplorer_AddClassModuleText" xml:space="preserve">
+    <value>クラス モジュール (.cls)</value>
+  </data>
+  <data name="CodeExplorer_AddFormText" xml:space="preserve">
+    <value>ユーザーフォーム (.frm)</value>
+  </data>
+  <data name="CodeExplorer_AddModule" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="CodeExplorer_AddStdModuleText" xml:space="preserve">
+    <value>標準モジュール (.bas)</value>
+  </data>
+  <data name="CodeExplorer_AddTestModuleText" xml:space="preserve">
+    <value>テストモジュール</value>
+  </data>
+  <data name="CodeExplorer_AddTestModuleWithStubsText" xml:space="preserve">
+    <value>スタブ付きテストモジュール</value>
+  </data>
+  <data name="CodeExplorer_CollapseSubnodesToolTip" xml:space="preserve">
+    <value>すべてを折りたたむ</value>
+  </data>
+  <data name="CodeExplorer_CopyToolTip" xml:space="preserve">
+    <value>クリップボードにコピー</value>
+  </data>
+  <data name="CodeExplorer_DisplayMemberNamesText" xml:space="preserve">
+    <value>メンバー名の表示</value>
+  </data>
+  <data name="CodeExplorer_DisplayModeToolTip" xml:space="preserve">
+    <value>表示スタイル</value>
+  </data>
+  <data name="CodeExplorer_DisplaySignaturesText" xml:space="preserve">
+    <value>完全な署名を表示</value>
+  </data>
+  <data name="CodeExplorer_ExpandSubnodesToolTip" xml:space="preserve">
+    <value>すべて展開</value>
+  </data>
+  <data name="CodeExplorer_Export" xml:space="preserve">
+    <value>エクスポート...</value>
+  </data>
+  <data name="CodeExplorer_ExportAll" xml:space="preserve">
+    <value>プロジェクトのエクスポート...</value>
+  </data>
+  <data name="CodeExplorer_FindAllImplementationsText" xml:space="preserve">
+    <value>すべての実装を検索...</value>
+  </data>
+  <data name="CodeExplorer_FindAllReferencesText" xml:space="preserve">
+    <value>すべての参照を検索...</value>
+  </data>
+  <data name="CodeExplorer_Import" xml:space="preserve">
+    <value>インポート...</value>
+  </data>
+  <data name="CodeExplorer_Indent" xml:space="preserve">
+    <value>インデント</value>
+  </data>
+  <data name="CodeExplorer_Navigate" xml:space="preserve">
+    <value>ナビゲート</value>
+  </data>
+  <data name="CodeExplorer_New" xml:space="preserve">
+    <value>新規作成</value>
+  </data>
+  <data name="CodeExplorer_NewToolTip" xml:space="preserve">
+    <value>アクティブなプロジェクトにコンポーネントを追加する</value>
+  </data>
+  <data name="CodeExplorer_Open" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="CodeExplorer_OpenDesigner" xml:space="preserve">
+    <value>デザイナーを開く</value>
+  </data>
+  <data name="CodeExplorer_OpenProjectProperties" xml:space="preserve">
+    <value>プロジェクトプロパティ</value>
+  </data>
+  <data name="CodeExplorer_Print" xml:space="preserve">
+    <value>印刷...</value>
+  </data>
+  <data name="CodeExplorer_Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="CodeExplorer_Remove" xml:space="preserve">
+    <value>削除...</value>
+  </data>
+  <data name="CodeExplorer_ResourceFileText" xml:space="preserve">
+    <value>リソース</value>
+  </data>
+  <data name="CodeExplorer_RunAllTestsText" xml:space="preserve">
+    <value>すべてのテストを実行</value>
+  </data>
+  <data name="CodeExplorer_ShowDesignerToolTip" xml:space="preserve">
+    <value>デザイナーを開く</value>
+  </data>
+  <data name="CodeExplorer_ShowFoldersToolTip" xml:space="preserve">
+    <value>フォルダの切り替え</value>
+  </data>
+  <data name="CodeExplorer_ShowSignaturesToolTip" xml:space="preserve">
+    <value>署名の切り替え</value>
+  </data>
+  <data name="CodeExplorer_Sort" xml:space="preserve">
+    <value>ソート</value>
+  </data>
+  <data name="CodeExplorer_SortStyle_ByCodeOrder" xml:space="preserve">
+    <value>モジュール順</value>
+  </data>
+  <data name="CodeExplorer_SortStyle_ByName" xml:space="preserve">
+    <value>名前順</value>
+  </data>
+  <data name="CodeExplorer_SortStyle_ByType" xml:space="preserve">
+    <value>種類別にグループ化</value>
+  </data>
+  <data name="CodeExplorer_Add" xml:space="preserve">
+    <value>追加...</value>
+  </data>
+  <data name="ExportBeforeRemove_Caption" xml:space="preserve">
+    <value>エクスポートの確認</value>
+  </data>
+  <data name="ExportBeforeRemove_Prompt" xml:space="preserve">
+    <value>削除する前に '{0}' をエクスポートしますか?</value>
+  </data>
+  <data name="CodeExplorer_AddMDIFormText" xml:space="preserve">
+    <value>MDI フォーム (.frm)</value>
+  </data>
+  <data name="CodeExplorer_AddPropertyPageText" xml:space="preserve">
+    <value>プロパティ ページ (.pag)</value>
+  </data>
+  <data name="CodeExplorer_AddUserControlText" xml:space="preserve">
+    <value>ユーザーコントロール (.ctl)</value>
+  </data>
+  <data name="CodeExplorer_AddUserDocumentText" xml:space="preserve">
+    <value>ユーザー ドキュメント (.dob)</value>
+  </data>
+  <data name="CodeExplorer_AddVBFormText" xml:space="preserve">
+    <value>フォーム (.frm)</value>
+  </data>
+  <data name="CodeExplorer_Rename" xml:space="preserve">
+    <value>名前の変更...</value>
+  </data>
+  <data name="CodeExplorer_SetAsStartupProject" xml:space="preserve">
+    <value>スタートアップとして設定</value>
+  </data>
+  <data name="CodeExplorer_AddTemplatesSubMenu" xml:space="preserve">
+    <value>テンプレート</value>
+  </data>
+  <data name="CodeExplorer_ProjectReferences" xml:space="preserve">
+    <value>プロジェクト参照</value>
+  </data>
+  <data name="CodeExplorer_FontSizeToolTip" xml:space="preserve">
+    <value>フォント サイズ</value>
+  </data>
+  <data name="CodeExplorer_SearchPlaceholder" xml:space="preserve">
+    <value>検索...</value>
+  </data>
+  <data name="CodeExplorer_SyncCodePaneToolTip" xml:space="preserve">
+    <value>コード ペインとの同期</value>
+  </data>
+  <data name="ExportError_Caption" xml:space="preserve">
+    <value>'{0}' のエクスポート中にエラーが発生しました</value>
+  </data>
+  <data name="RemoveError_Caption" xml:space="preserve">
+    <value>'{0}' の削除エラー</value>
+  </data>
+  <data name="CodeExplorer_LibraryReferences" xml:space="preserve">
+    <value>ライブラリ参照</value>
+  </data>
+  <data name="CodeExplorer_AddExistingFileText" xml:space="preserve">
+    <value>既存のファイル...</value>
+  </data>
+  <data name="CodeExplorer_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="CodeExplorer_Exclude" xml:space="preserve">
+    <value>プロジェクトから除外</value>
+  </data>
+  <data name="ConfirmBeforeDelete_Caption" xml:space="preserve">
+    <value>削除の確認</value>
+  </data>
+  <data name="ConfirmBeforeDelete_Prompt" xml:space="preserve">
+    <value>{0} は完全に削除されます。
+    
+続行しますか?</value>
+  </data>
+  <data name="DeleteFailed_Caption" xml:space="preserve">
+    <value>削除に失敗しました</value>
+  </data>
+  <data name="DeleteFailed_Message" xml:space="preserve">
+    <value>次のファイルを削除できませんでした: 
+    
+{0}</value>
+  </data>
+  <data name="CodeExplorer_AppendHeader" xml:space="preserve">
+    <value>Rubberduck ユーザー宣言 - {0}</value>
+  </data>
+  <data name="CodeExplorer_ExtractInterfaceText" xml:space="preserve">
+    <value>インターフェイスを抽出します...</value>
+  </data>
+  <data name="SyncProject" xml:space="preserve">
+    <value>プロジェクトの同期</value>
+  </data>
+  <data name="UpdateFromFiles" xml:space="preserve">
+    <value>ファイルからコンポーネントを更新...</value>
+  </data>
+  <data name="ReplaceFromFiles" xml:space="preserve">
+    <value>ファイルから内容を置換...</value>
+  </data>
+  <data name="CodeExplorer_MoveToFolder" xml:space="preserve">
+    <value>フォルダーに移動...</value>
+  </data>
+  <data name="CodeExplorer_Annotate" xml:space="preserve">
+    <value>アノテーション</value>
+  </data>
+  <data name="ImportCommand_DocumentDoesNotExist" xml:space="preserve">
+    <value>'{0}' という名前の既存のドキュメント モジュールがありません。ファイル '{1}' をインポートできません。
+
+インポートが中止されました。</value>
+  </data>
+  <data name="ImportCommand_BinaryAndComponentDoNotExist" xml:space="preserve">
+    <value>ファイル '{0}' の場合に必要なバイナリ ファイル '{1}' が見つからず、対象のコンポーネントも既に存在しません。
+
+インポートが中止されました。</value>
+  </data>
+  <data name="ImportCommand_BinaryDoesNotExist" xml:space="preserve">
+    <value>ファイル '{0}' の場合に必要なバイナリ ファイル '{1}' がありません。
+
+インポートが中止されました。</value>
+  </data>
+  <data name="ImportCommand_DuplicateModule" xml:space="preserve">
+    <value>複数のファイルには、コンポーネント '{0}' のコードが含まれています。
+
+インポートが中止されました。</value>
+  </data>
+  <data name="ImportCommand_OpenDialog_Filter_AllFiles" xml:space="preserve">
+    <value>すべてのファイル</value>
+  </data>
+  <data name="ImportCommand_OpenDialog_Filter_VBFiles" xml:space="preserve">
+    <value>VB ファイル</value>
+  </data>
+  <data name="ImportCommand_OpenDialog_Title" xml:space="preserve">
+    <value>ソース ファイルのインポート</value>
+  </data>
+  <data name="ImportCommand_UnsupportedFileExtensions" xml:space="preserve">
+    <value>ファイル '{0}' の拡張子はサポートされていません。
+
+インポートが中止されました。</value>
+  </data>
+  <data name="CodeExplorerWindowSettings_AccessKey" xml:space="preserve">
+    <value>コード エクスプローラ</value>
+  </data>
+  <data name="CodeExplorer_NavigateText" xml:space="preserve">
+    <value>ナビゲート</value>
+  </data>
+</root>

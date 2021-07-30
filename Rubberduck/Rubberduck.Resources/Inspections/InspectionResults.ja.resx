@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EmptyStringLiteralInspection" xml:space="preserve">
+    <value>'vbNullString' は、空の文字列リテラルよりも優先されます。</value>
+  </data>
+  <data name="EncapsulatePublicFieldInspection" xml:space="preserve">
+    <value>パブリック フィールド '{0}' はカプセル化を破壊します。</value>
+  </data>
+  <data name="MoveFieldCloserToUsageInspection" xml:space="preserve">
+    <value>モジュール レベルの変数 '{0}' を小さいスコープに移動します。</value>
+  </data>
+  <data name="ProcedureCanBeWrittenAsFunctionInspection" xml:space="preserve">
+    <value>プロシージャ '{0}' は関数として記述できます。</value>
+  </data>
+  <data name="IdentifierNameInspection" xml:space="preserve">
+    <value>'{1}' {0} 名前の変更を検討してください。</value>
+  </data>
+  <data name="WriteOnlyPropertyInspection" xml:space="preserve">
+    <value>プロパティ '{0}' にはゲッターがありません。</value>
+  </data>
+  <data name="SelfAssignedDeclarationInspection" xml:space="preserve">
+    <value>オブジェクト参照 '{0}' は自動的にインスタンス化されます。</value>
+  </data>
+  <data name="FunctionReturnValueAlwaysDiscardedInspection" xml:space="preserve">
+    <value>関数 '{0}' の戻り値は使用されません。</value>
+  </data>
+  <data name="AssignedByValParameterInspection" xml:space="preserve">
+    <value>パラメータ '{0}' は 'ByVal' を渡し、値を割り当てられます。</value>
+  </data>
+  <data name="IdentifierNotUsedInspection" xml:space="preserve">
+    <value>{0}'{1}' は使用されません。</value>
+  </data>
+  <data name="ImplicitByRefModifierInspection" xml:space="preserve">
+    <value>パラメータ '{0}' は暗黙的に参照によって渡されます。</value>
+  </data>
+  <data name="ImplicitPublicMemberInspection" xml:space="preserve">
+    <value>メンバー '{0}' は暗黙的に公開されます。</value>
+  </data>
+  <data name="ImplicitVariantDeclarationInspection" xml:space="preserve">
+    <value>{0} '{1}' は暗黙的に 'Variant' です。</value>
+  </data>
+  <data name="ImplicitVariantReturnTypeInspection" xml:space="preserve">
+    <value>メンバー '{0}' の戻り値の型は暗黙的に 'Variant' です。</value>
+  </data>
+  <data name="MultilineParameterInspection" xml:space="preserve">
+    <value>パラメータ '{0}' は複数行で指定されています。</value>
+  </data>
+  <data name="NonReturningFunctionInspection" xml:space="preserve">
+    <value>メンバー '{0}' の戻り値が代入されることはありません。</value>
+  </data>
+  <data name="ObsoleteGlobalInspection" xml:space="preserve">
+    <value>{0} '{1}' は、古い 'Global' アクセス修飾子を使用します。</value>
+  </data>
+  <data name="ParameterCanBeByValInspection" xml:space="preserve">
+    <value>パラメータ '{0}' は値渡し可能です。</value>
+  </data>
+  <data name="ParameterNotUsedInspection" xml:space="preserve">
+    <value>パラメータ '{0}' は使用されません。</value>
+  </data>
+  <data name="ProcedureShouldBeFunctionInspection" xml:space="preserve">
+    <value>プロシージャ '{0}' は関数として記述できます。</value>
+  </data>
+  <data name="UnassignedVariableUsageInspection" xml:space="preserve">
+    <value>変数 '{0}' は使用されますが、代入されません。</value>
+  </data>
+  <data name="OptionExplicitInspection" xml:space="preserve">
+    <value>'Option Explicit' は '{0}' で指定されていません。</value>
+  </data>
+  <data name="VariableNotAssignedInspection" xml:space="preserve">
+    <value>変数 '{0}' は割り当てられません。</value>
+  </data>
+  <data name="ObjectVariableNotSetInspection" xml:space="preserve">
+    <value>オブジェクト変数 '{0}' は 'Set' キーワードなしで割り当てられます。</value>
+  </data>
+  <data name="DefaultProjectNameInspection" xml:space="preserve">
+    <value>プロジェクト '{0}' には既定のプロジェクト名が使用されています。</value>
+  </data>
+  <data name="ObsoleteCallStatementInspection" xml:space="preserve">
+    <value>割り当てでは、古い 'Call' 修飾子が使用されます。</value>
+  </data>
+  <data name="ObsoleteCommentSyntaxInspection" xml:space="preserve">
+    <value>コメントは、古い 'Rem' マーカーを使用します。</value>
+  </data>
+  <data name="ObsoleteLetStatementInspection" xml:space="preserve">
+    <value>割り当てでは、古い 'Let' 修飾子が使用されます。</value>
+  </data>
+  <data name="ImplicitActiveSheetReferenceInspection" xml:space="preserve">
+    <value>メンバー '{0}' は暗黙的に 'ActiveSheet' を参照します。</value>
+  </data>
+  <data name="ImplicitActiveWorkbookReferenceInspection" xml:space="preserve">
+    <value>メンバー '{0}' は暗黙的に 'ActiveWorkbook' を参照します。</value>
+  </data>
+  <data name="MultipleDeclarationsInspection" xml:space="preserve">
+    <value>命令に複数の宣言が含まれています。</value>
+  </data>
+  <data name="ObsoleteTypeHintInspection" xml:space="preserve">
+    <value>{1} '{2}' の{0}は、古い型のヒントを使用します。</value>
+  </data>
+  <data name="OptionBaseInspection" xml:space="preserve">
+    <value>コンポーネント '{0}' は 'Option Base 1' を使用します。</value>
+  </data>
+  <data name="UntypedFunctionUsageInspection" xml:space="preserve">
+    <value>関数 '{0}' を既存の型指定された関数に置き換えます。</value>
+  </data>
+  <data name="VariableTypeNotDeclaredInspection" xml:space="preserve">
+    <value>{0} '{1}' は暗黙的に 'Variant' です。</value>
+  </data>
+  <data name="MissingAnnotationArgumentInspection" xml:space="preserve">
+    <value>アノテーション '{0}' は、より多くの引数を持つ必要がありました。</value>
+  </data>
+  <data name="ModuleScopeDimKeywordInspection" xml:space="preserve">
+    <value>モジュールレベルの変数 '{0}' は 'Dim' キーワードで宣言されています。</value>
+  </data>
+  <data name="UndeclaredVariableInspection" xml:space="preserve">
+    <value>ローカル変数 '{0}' は宣言されていません。</value>
+  </data>
+  <data name="AggregateInspection" xml:space="preserve">
+    <value>{0} ({1}結果)</value>
+  </data>
+  <data name="MemberNotOnInterfaceInspection" xml:space="preserve">
+    <value>メンバー '{0}' は、型 '{1}' のコンパイル時インターフェイスで見つかりませんでした。</value>
+  </data>
+  <data name="HostSpecificExpressionInspection" xml:space="preserve">
+    <value>式 '{0}' はコンパイル時に検証できません。</value>
+  </data>
+  <data name="ApplicationWorksheetFunctionInspection" xml:space="preserve">
+    <value>遅延バインド 'Application.{0}' メンバーの使用。</value>
+  </data>
+  <data name="OptionBaseZeroInspection" xml:space="preserve">
+    <value>コンポーネント '{0}' は 'Option Base 0' を使用します。</value>
+  </data>
+  <data name="InvalidAnnotationInspection" xml:space="preserve">
+    <value>このコンテキストでは、アノテーション '{0}' は無効です。</value>
+  </data>
+  <data name="MissingAttributeInspection" xml:space="preserve">
+    <value>モジュールまたはメンバー '{0}' には '{1}' アノテーションがありますが、対応する属性はありません。</value>
+  </data>
+  <data name="EmptyIfBlockInspection" xml:space="preserve">
+    <value>'If' ブロックには実行可能なステートメントが含まれていません。</value>
+  </data>
+  <data name="RedundantOptionInspection" xml:space="preserve">
+    <value>'{0}' は効果がありません。</value>
+  </data>
+  <data name="RedundantByRefModifierInspection" xml:space="preserve">
+    <value>パラメータ '{0}' には冗長な 'ByRef' 修飾子があります。</value>
+  </data>
+  <data name="LineLabelNotUsedInspection" xml:space="preserve">
+    <value>行ラベル '{0}' は使用されません。</value>
+  </data>
+  <data name="EmptyElseBlockInspection" xml:space="preserve">
+    <value>'Else' ブロックには実行可能なステートメントが含まれていません。</value>
+  </data>
+  <data name="IntegerDataTypeInspection" xml:space="preserve">
+    <value>{0} '{1}' は 'Integer' として宣言されます。</value>
+  </data>
+  <data name="StopKeywordInspection" xml:space="preserve">
+    <value>'Stop' キーワードは実行を停止します。</value>
+  </data>
+  <data name="EmptyCaseBlockInspection" xml:space="preserve">
+    <value>Case' ブロックには実行可能なステートメントが含まれていません</value>
+  </data>
+  <data name="EmptyDoWhileBlockInspection" xml:space="preserve">
+    <value>'Do...While' ループには実行可能なステートメントが含まれていません</value>
+  </data>
+  <data name="EmptyForEachBlockInspection" xml:space="preserve">
+    <value>'For...Each' ループには実行可能なステートメントが含まれていません。</value>
+  </data>
+  <data name="EmptyForLoopBlockInspection" xml:space="preserve">
+    <value>'For...Next' ループには実行可能なステートメントが含まれていません。</value>
+  </data>
+  <data name="EmptyWhileWendBlockInspection" xml:space="preserve">
+    <value>'While...Wend' ループには実行可能なステートメントが含まれていません。</value>
+  </data>
+  <data name="ShadowedDeclarationInspection" xml:space="preserve">
+    <value>'{1}' {0} は '{3}' {2} を隠します。</value>
+  </data>
+  <data name="ObsoleteErrorSyntaxInspection" xml:space="preserve">
+    <value>'Error' ステートメントを使用することで実行時エラーを発生させます。</value>
+  </data>
+  <data name="BooleanAssignedInIfElseInspection" xml:space="preserve">
+    <value>条件付きで割り当てられた Boolean リテラル '{0}'</value>
+  </data>
+  <data name="EmptyModuleInspection" xml:space="preserve">
+    <value>モジュール/クラス '{0}' は空です。</value>
+  </data>
+  <data name="UnreachableCaseInspection" xml:space="preserve">
+    <value>Case 句 '{0}' に到達できません。</value>
+  </data>
+  <data name="UnreachableCaseInspection_CaseElse" xml:space="preserve">
+    <value>'Case Else' ステートメントに到達できません。</value>
+  </data>
+  <data name="UnreachableCaseInspection_TypeMismatch" xml:space="preserve">
+    <value>'Case' ステートメントは実行時エラー 13 (型の不一致) を引き起こします。</value>
+  </data>
+  <data name="UnreachableCaseInspection_Unreachable" xml:space="preserve">
+    <value>'Case' ステートメントに到達できません。</value>
+  </data>
+  <data name="UnhandledOnErrorResumeNextInspection" xml:space="preserve">
+    <value>エラーは無視されますが、再処理されることはありません。</value>
+  </data>
+  <data name="DefTypeStatementInspection" xml:space="preserve">
+    <value>'{1}' ではなく明示的な 'As {0}' の使用を検討してください。</value>
+  </data>
+  <data name="StepOneIsRedundantInspection" xml:space="preserve">
+    <value>'For...Next' ループのデフォルト step は 1 です、したがって冗長です。</value>
+  </data>
+  <data name="StepIsNotSpecifiedInspection" xml:space="preserve">
+    <value>'Step' が指定されていません。</value>
+  </data>
+  <data name="SheetAccessedUsingStringInspection" xml:space="preserve">
+    <value>静的にアクセス可能なシートは、そのコード名で参照できます。</value>
+  </data>
+  <data name="ObsoleteMemberUsageInspection" xml:space="preserve">
+    <value>'{0}' への呼び出しを置き換えることを検討してください。{1}</value>
+  </data>
+  <data name="ObsoleteCallingConventionInspection" xml:space="preserve">
+    <value>'{0}' は、古い 'CDecl' 呼び出し規約を使用して宣言されています。</value>
+  </data>
+  <data name="UnreachableCaseInspection_InherentlyUnreachable" xml:space="preserve">
+    <value>'Case' ステートメントの範囲句は、[x] が [y] 以下の場合は '[x] を [y] ' に指定する必要があります。</value>
+  </data>
+  <data name="UnreachableCaseInspection_Overflow" xml:space="preserve">
+    <value>'Case' ステートメントは実行時エラー 6 (オーバーフロー) を引き起こします。</value>
+  </data>
+  <data name="DuplicatedAnnotationInspection" xml:space="preserve">
+    <value>アノテーション '{0}' が重複しています。</value>
+  </data>
+  <data name="ModuleWithoutFolderInspection" xml:space="preserve">
+    <value>モジュール '{0}' には '@Folder' アノテーションがありません。</value>
+  </data>
+  <data name="OnLocalErrorInspection" xml:space="preserve">
+    <value>'On Local Error' ステートメントが検出されました。</value>
+  </data>
+  <data name="IsMissingOnInappropriateArgumentInspection" xml:space="preserve">
+    <value>'IsMissing' は、渡された引数を持つ常に false を返します。</value>
+  </data>
+  <data name="IsMissingWithNonArgumentParameterInspection" xml:space="preserve">
+    <value>'IsMissing' は、外側のプロシージャに引数ではない式を渡されます。</value>
+  </data>
+  <data name="AssignmentNotUsedInspection" xml:space="preserve">
+    <value>割り当ては、別の割り当てによって直ちにオーバーライドされるか、参照されることはありません。</value>
+  </data>
+  <data name="UnderscoreInPublicClassModuleMemberInspection" xml:space="preserve">
+    <value>パブリック メンバー名 '{0}' にはアンダースコアが含まれています。</value>
+  </data>
+  <data name="ExcelMemberMayReturnNothingInspection" xml:space="preserve">
+    <value>'{0}' の呼び出しの結果は 'Nothing' のテストは行いません。</value>
+  </data>
+  <data name="ExcelUdfNameIsValidCellReferenceInspection" xml:space="preserve">
+    <value>'{0}' は有効な Excel セル参照によって非表示になります。</value>
+  </data>
+  <data name="AttributeValueOutOfSyncInspection" xml:space="preserve">
+    <value>属性 {0} ({1}) の属性値が {2} アノテーションと同期していません。</value>
+  </data>
+  <data name="MissingMemberAnnotationInspection" xml:space="preserve">
+    <value>メンバー '{0}' には、'{1}' 属性が値 '{2}' ですが、対応するアノテーションはありません。</value>
+  </data>
+  <data name="MissingModuleAnnotationInspection" xml:space="preserve">
+    <value>モジュール '{0}' には、値が '{2}' の '{1}' 属性がありますが、対応するアノテーションはありません。</value>
+  </data>
+  <data name="KeywordsUsedAsMemberInspection" xml:space="preserve">
+    <value>キーワードはメンバー '{0}' の識別子として使用されています。</value>
+  </data>
+  <data name="LineContinuationBetweenKeywordsInspection" xml:space="preserve">
+    <value>予期しない場所での行の継続。</value>
+  </data>
+  <data name="NonBreakingSpaceIdentifierInspection" xml:space="preserve">
+    <value>識別子 '{0}' で、改行しないスペースが見つかりました。</value>
+  </data>
+  <data name="ThunderCode_Base" xml:space="preserve">
+    <value>{0}
+Andrew "ThunderFrame" Jackson は誇りに思うでしょう!
+実際のコードである方法がなく、Rubberduck の解析と解決機能の限界を押し広げているだけなので、この検査結果が表示されますよね?...右。
+メモリアムでは、1972-2018</value>
+  </data>
+  <data name="NegativeLineNumberInspection" xml:space="preserve">
+    <value>負の行番号が見つかりました</value>
+  </data>
+  <data name="OnErrorGoToMinusOneInspection" xml:space="preserve">
+    <value>On Error GoTo -1 が発生しました</value>
+  </data>
+  <data name="ObsoleteWhileWendStatementInspection" xml:space="preserve">
+    <value>'While...Wend' ループは 'Do While...Loop' として書くことができます。</value>
+  </data>
+  <data name="SetAssignmentWithIncompatibleObjectTypeInspection" xml:space="preserve">
+    <value>宣言された型 '{1}' の変数 '{0}' に、互換性のない宣言された型 '{2}' で代入された値が設定されます。</value>
+  </data>
+  <data name="EmptyMethodInspection" xml:space="preserve">
+    <value>{0} '{1}' には実行可能なステートメントが含まれています。</value>
+  </data>
+  <data name="ImplementedInterfaceMemberInspection" xml:space="preserve">
+    <value>インターフェイス クラス モジュール '{2}' には、{0} '{1}' の具体的な実装が含まれています。</value>
+  </data>
+  <data name="ArgumentWithIncompatibleObjectTypeInspection" xml:space="preserve">
+    <value>'{3}' 型の引数 '{2}' は、互換性のない型 '{1}' のパラメータ '{0}' に渡されます。</value>
+  </data>
+  <data name="ValueRequiredInspection" xml:space="preserve">
+    <value>値型を必要とするコンテキストでは、適切な既定のメンバーを持たないオブジェクト型 '{1}' の式 '{0}' が使用されます。</value>
+  </data>
+  <data name="ProcedureRequiredInspection" xml:space="preserve">
+    <value>プロシージャを必要とするコンテキストでは、適切な既定のメンバーを持たないオブジェクト型 '{1}' の式 '{0}' が使用されます。</value>
+  </data>
+  <data name="DefaultMemberRequiredInspection" xml:space="preserve">
+    <value>式 '{0}' には既定のメンバ アクセスが必要ですが、型 '{1}' には適切な既定のメンバがありません。</value>
+  </data>
+  <data name="UseOfBangNotationInspection" xml:space="preserve">
+    <value>'{0}' という表現は、バン表記を使用します。</value>
+  </data>
+  <data name="UseOfRecursiveBangNotationInspection" xml:space="preserve">
+    <value>式 '{0}' は、再帰的な強打演算子を使用します。</value>
+  </data>
+  <data name="UseOfUnboundBangNotationInspection" xml:space="preserve">
+    <value>式 '{0}' は、非バインドバン演算子を使用します。</value>
+  </data>
+  <data name="ObjectWhereProcedureIsRequiredInspection" xml:space="preserve">
+    <value>式 '{0}' は、既定のメンバー '{1}' の呼び出しにつながるプロシージャを必要とするコンテキストで使用されます。</value>
+  </data>
+  <data name="ObjectWhereProcedureIsRequiredInspection_Unbound" xml:space="preserve">
+    <value>式 '{0}' は、コンパイル時に判別できない既定のメンバーへの呼び出しにつながるプロシージャを必要とするコンテキストで使用されます。</value>
+  </data>
+  <data name="IndexedDefaultMemberAccessInspection" xml:space="preserve">
+    <value>式 '{0}' には、{1} インデックスが付いた既定のメンバ アクセスが含まれています。</value>
+  </data>
+  <data name="IndexedRecursiveDefaultMemberAccessInspection" xml:space="preserve">
+    <value>式 '{0}' には、インデックス付き再帰的な既定のメンバ アクセスが含{1}。</value>
+  </data>
+  <data name="IndexedUnboundDefaultMemberAccessInspection" xml:space="preserve">
+    <value>式 '{0}' には、インデックス付きのバインドされていない既定のメンバ アクセスが含まれています。</value>
+  </data>
+  <data name="ImplicitDefaultMemberAccessInspection" xml:space="preserve">
+    <value>式 '{0}' には、'{1}' への暗黙的な既定のメンバー アクセスがあります。</value>
+  </data>
+  <data name="ImplicitRecursiveDefaultMemberAccessInspection" xml:space="preserve">
+    <value>式 '{0}' には、'{1}' への暗黙的な再帰的な既定のメンバー アクセスがあります。</value>
+  </data>
+  <data name="ImplicitUnboundDefaultMemberAccessInspection" xml:space="preserve">
+    <value>式 '{0}' には、暗黙的なバインドされていない既定のメンバー アクセスがあります。</value>
+  </data>
+  <data name="SuspiciousLetAssignmentInspection" xml:space="preserve">
+    <value>式 '{1}' の結果の既定のメンバーから 、式 '{0}' の既定のメンバへの代入があります。</value>
+  </data>
+  <data name="FunctionReturnValueDiscardedInspection" xml:space="preserve">
+    <value>関数 '{0}' の戻り値は破棄されます。</value>
+  </data>
+  <data name="ImplicitlyTypedConstInspection" xml:space="preserve">
+    <value>定数 '{0}' は暗黙的に型指定されます。</value>
+  </data>
+  <data name="SuperfluousAnnotationArgumentInspection" xml:space="preserve">
+    <value>アノテーション '{0}' の引数が少ないと予想されていました。</value>
+  </data>
+  <data name="ImplicitContainingWorkbookReferenceInspection" xml:space="preserve">
+    <value>メンバー '{0}' は、ワークブック内のドキュメント モジュールを暗黙的に参照します。</value>
+  </data>
+  <data name="ImplicitContainingWorksheetReferenceInspection" xml:space="preserve">
+    <value>メンバー '{0}' は、ワークシート内のドキュメント モジュールを暗黙的に参照します。</value>
+  </data>
+  <data name="MisleadingByRefParameterInspection" xml:space="preserve">
+    <value>パラメータ '{0}' ({1}) に使用されている ByRef 修飾子は誤解を招きます。</value>
+  </data>
+  <data name="InvalidAnnotationInspection_IncompatibleComponentType" xml:space="preserve">
+    <value>アノテーション '{0}' は '{1}' で使用できません。</value>
+  </data>
+  <data name="InvalidAnnotationInspection_NotInRequiredComponentType" xml:space="preserve">
+    <value>アノテーション '{0}' は '{1}' で使用されますが、'{2}' でのみ有効です。</value>
+  </data>
+  <data name="UnrecognizedAnnotationInspection" xml:space="preserve">
+    <value>'{0}' は Rubberduck のアノテーションとして認識できません(まだ?</value>
+  </data>
+</root>
